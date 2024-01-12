@@ -2,7 +2,7 @@ accessions = 'accessions.txt'
 
 process pullNCBI {
 
-	input:
+    input:
     val x
 
     output:
