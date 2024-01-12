@@ -28,5 +28,5 @@ process convertToUpper {
 }
 
 workflow {
-    Channel.of(file(accessions).readLines()) | flatten | splitLetters | convertToUpper 
+    Channel.of(file(accessions).readLines()) | flatten | pullNCBI | convertToUpper 
 }
