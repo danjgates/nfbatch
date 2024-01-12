@@ -14,7 +14,7 @@ process pullNCBI {
 }
 
 process convertToUpper {
-	publishDir './work/', mode: 'move'
+    publishDir 's3://pipe-out/output/', mode: 'move'
 
     input:
     path x
