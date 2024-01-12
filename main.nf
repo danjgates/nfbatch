@@ -1,4 +1,4 @@
-accessions = 'accessions.txt'
+accessions = 's3://pipe-out/resources/accessions.txt'
 
 process pullNCBI {
 
